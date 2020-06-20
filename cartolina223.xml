@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="C3">        
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="sub">Mazzolino di fiori</title>       
+            </titleStmt>
+            
+            <publicationStmt> 
+                <publisher>Unipi</publisher>    
+            </publicationStmt>
+                   
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Sul fronte della cartolina, nell'angolo in basso a sinistra, troviamo una scritta parzialmente leggibile ("Main"?), probabilmente la firma dell'autore del disegno della cartolina.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom">[Mazzolino di fiori]</title>
+                    <author><unclear>Main(?)</unclear></author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher>D.S.N.</publisher>
+                    
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country type="nation">Italia</country>
+                        <settlement type="city">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694-223F/7694-223R</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp type="postage">Francobollo da 5 centesimi - Regno d'Italia</stamp>
+                                    <stamp type="postmark">Timbro Spezia Arrivi e Partenze</stamp>
+                                    <stamp type="postmark">Timbro Censura Spezia</stamp>
+                                    <stamp type="tipography1">Informazione tipografica Editore D.S.N.</stamp>
+                                    <stamp type="tipography2">Informazione tipografica Serie 2000</stamp>
+                                </support>
+                                
+                            <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Discreto. La cartolina presenta segni di usura sul fronte e sul retro.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>                   
+                    <person xml:id="MC">
+                        <persName>
+                            <forename>Maria</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="OT3">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="SP">
+                        <placeName>La Spezia</placeName>
+                        <settlement type="comune">La Spezia</settlement>
+                        <district type="provincia">SP</district>
+                        <region>Liguria</region>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="RV3">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="comune">Ravenna</settlement>
+                        <district type="provincia">RV</district>
+                        <region>Emilia-Romagna</region>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>   
+
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#MC">Maria Coliola</persName>
+                    <placeName ref="#SP">La Spezia</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1917-05-25">25/05/1917</date>
+                    <date type="writing" when="1917-05-24">24/05/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT3">Oliva Turtura</persName>
+                    <placeName ref="#RV3">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Mazzolino di fiori</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        <list> 
+                            <item> 
+                                <choice xml:id="gentMa3"> 
+                                    <abbr type="titolo">Gent.ma</abbr> 
+                                    <expan>Gentilissima</expan>
+                                </choice>
+                            </item>
+                                
+                            <item> 
+                                <choice xml:id="affMa"> 
+                                    <abbr type="titolo">Aff.ma</abbr> 
+                                    <expan>Affezionatissima</expan>
+                                </choice>
+                            </item>
+
+                            <item>
+                                <choice xml:id="sigNa">
+                                    <abbr type="titolo">Sig.na</abbr>
+                                    <expan>Signorina</expan>
+                                </choice>
+                            </item>
+                        </list>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface ulx="0" uly="0" lrx="620" lry="400" n="223">
+            <graphic url="7694-223R.jpg"/>
+            <zone xml:id="censura" ulx="318" uly="90" lrx="484" lry="162"/>
+            <zone xml:id="data3" ulx="95" uly="16" lrx="286" lry="232"/>
+            <zone xml:id="numero3" ulx="413" uly="42" lrx="477" lry="73"/>
+            <zone xml:id="messaggio3" ulx="44" uly="75" lrx="230" lry="361"/>
+            <zone xml:id="editore3" ulx="276" uly="374" lrx="311" lry="391"/>
+            <zone xml:id="serie3" ulx="13" uly="313" lrx="32" lry="385"/>
+            <zone xml:id="timbro3" ulx="486" uly="38" lrx="618" lry="164"/>
+            <zone xml:id="francobollo3" ulx="519" uly="23" lrx="606" lry="128"/>
+            <zone xml:id="indirizzo3" ulx="296" uly="157" lrx="617" lry="390"/>
+        </surface>
+    </facsimile>
+
+   
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="terza">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte">
+                <figure>
+                    <graphic url="7694-223F.jpg" />
+                    <figDesc>Mazzo di fiori azzurri e foglie d'edera.</figDesc>
+                    <head>Mazzolino di fiori</head>
+                </figure>
+            </div>
+            <div type="retro" n="3">
+                <div type="message">
+                    <!-- ... -->
+                    <dateline facs="#data3">
+                        <placeName ref="#SP">Spezia</placeName>, 
+                        <date when="1917-05-24"> 24-V.17.</date>
+                    </dateline>
+                    <p facs="#messaggio3">
+                        <lb/>Contraccambio affettuosi 
+                        <lb/>baci e saluti. 
+                        <lb/><abbr>Aff.ma<ptr target="#affMa"/></abbr>
+                    </p>
+                    <signed>
+                        <persName ref="#MC">
+                            <forename>Maria</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                    </signed>
+                </div>
+                <div type="details">
+                    <!-- ... -->
+                    <p><add><idno facs="#numero3">223</idno></add></p>
+                </div>
+                <div type="destination">
+                    <p>
+                        <!-- stamps -->
+                        <stamp type="postmark"> 
+                            <mentioned facs="#timbro3">
+                                <placeName ref="#SP">SPEZIA</placeName> ARRIVI E PARTENZE
+                            </mentioned>
+                            <date when="1917-05-25" facs="#timbro3"> 25.5.17 </date>
+                        </stamp>
+                        <stamp type="postmark" xml:id="ce" facs="#censura">
+                            <mentioned>CENSURA 
+                                <placeName ref="#SP">SPEZIA</placeName>
+                            </mentioned>
+                        </stamp>
+                        <stamp type="postage" facs="#francobollo3">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+                        <stamp type="tipography1" facs="#editore3">
+                            <mentioned>D.S.N.</mentioned>
+                        </stamp>
+                        <stamp type="tipography2" facs="#serie3">
+                            <mentioned>Serie 2000</mentioned>
+                        </stamp>
+                    </p>
+                    <p>
+                        <address facs="#indirizzo3">
+                            <addrLine>
+                                Alla<abbr type="titolo"> Gent.ma <ptr target="#gentMa3"/></abbr>
+                                <abbr type="titolo">Sig.na<ptr target="#sigNa"/></abbr>
+                            </addrLine>
+                            <addrLine>
+                                <abbr type="titolo">Sig.na <ptr target="#sigNa"/></abbr>
+                                <persName ref="#OT3">
+                                    <forename>Oliva</forename>
+                                    <surname>Turtura</surname>
+                                </persName>
+                            </addrLine>
+                            <addrLine>Via 
+                                <persName>
+                                    <forename>Gerolamo</forename>
+                                    <surname>Rossi</surname>
+                                </persName>
+                                -<num>58</num>-
+                            </addrLine>
+                            <addrLine>
+                                <placeName ref="#RV3">Ravenna</placeName>
+                            </addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
