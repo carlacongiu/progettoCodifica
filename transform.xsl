@@ -60,7 +60,7 @@
 
                 <xsl:element name="div">
                     <xsl:attribute name="id">intro</xsl:attribute>
-                    <xsl:apply-templates select="//tei:projectDesc"/> <!--da modificare-->
+                    <xsl:apply-templates select="//tei:projectDesc"/>
                 </xsl:element>
 
 
