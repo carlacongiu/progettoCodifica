@@ -138,7 +138,7 @@
                                         <xsl:element name="div">
                                             <xsl:attribute name="class">info</xsl:attribute>
                                             <h3>Interpretazioni</h3>
-                                            <xsl:apply-templates select="tei:text//tei:choice" mode="mode"/>
+                                            <xsl:apply-templates select="tei:text//tei:choice" mode="abbrExpan"/>
                                         </xsl:element>
                                     </xsl:element>
                                 </xsl:when>
@@ -238,7 +238,7 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="tei:choice" mode="mode">
+    <xsl:template match="tei:choice" mode="abbrExpan">
         <xsl:element name="p">    
            <b><xsl:value-of select="tei:abbr"/></b>: <xsl:value-of select="tei:expan"/>
         </xsl:element>
